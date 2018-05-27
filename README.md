@@ -6,5 +6,22 @@ Basic script that separates standard Genesis child theme stylesheet into partial
 
 ## Instructions
 
-Run `sh split.sh style.css` where 'style.css' is the name of the file you wish to split.
+From the Terminal, navigate into your theme's root directory:
 
+```shell
+cd project/wp-content/themes/theme
+```
+
+Copy the script to your theme file:
+
+```sh
+wget https://raw.githubusercontent.com/seothemes/css-splitter/master/split.sh
+```
+
+Run the following command, changing 'style.css' if necessary.
+
+```shell
+sh split.sh style.css
+```
+
+You may need to enter your system user password for the renaming to work.
