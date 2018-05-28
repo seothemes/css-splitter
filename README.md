@@ -2,7 +2,31 @@
 
 Splits Genesis child theme CSS, SCSS or Sass file into partials.
 
-Basic script that separates standard Genesis child theme stylesheet into partial files. The script looks for the large comments in the file starting with '/* # ' and will break these sections into separate files. It then renames the partials to the name of the section. 
+Basic script that separates standard Genesis child theme stylesheet into partial files. The script looks for section comments in the file starting with `'/* # '` and will break these sections into separate files. It then moves the partials into a `scss` directory, renames them to match the name of the section and generates an `index.scss` file.
+
+## Requirements
+
+<table width="100%">
+	<thead>
+		<tr>
+			<th align="left" width="35%">Requirement</th>
+			<th align="left" width="25%">How to Check</th>
+			<th align="left" width="600">How to Install</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Bash 4.x</td>
+			<td><code>bash --version</code></td>
+			<td><a href="http://clubmate.fi/upgrade-to-bash-4-in-mac-os-x/">Install Bash</a></td>
+		</tr>
+		<tr>
+			<td>Split</td>
+			<td><code>split -h</code></td>
+			<td><a href="https://developer.apple.com/legacy/library/documentation/Darwin/Reference/ManPages/man1/split.1.html">Split Manual</a></td>
+		</tr>
+	</tbody>
+</table>
 
 ## Instructions
 
