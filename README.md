@@ -42,10 +42,10 @@ Copy the script to your theme file:
 wget https://raw.githubusercontent.com/seothemes/css-splitter/master/split.sh
 ```
 
-Run the following command, changing 'style.css' if necessary.
+*Pro Tip* Before splitting a file you should convert CSS to **SCSS** either manually or using a tool such as http://css2sass.herokuapp.com/
+
+Run the following command, changing 'style.css' if necessary. The Terminal will prompt you to enter the system user password.
 
 ```shell
 sh split.sh style.css
 ```
-
-You may need to enter your system user password for the renaming to work.
